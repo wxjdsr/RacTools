@@ -5,8 +5,7 @@ It has many small tools I used on my laptop for utility.
 This is a toggle between software that needs Hyper-V (Docker) or not (BlueStacks, WSL) on Windows.
 
 ## Steam afk
-A shell script to afk steam games
-Steps:
+A shell script to afk steam games with these steps:
 1. Install the idle master
 2. Create a file named id.txt and put all the app ids in it
 3. Put this script in the same folder as steam-idle.exe
