@@ -1,4 +1,4 @@
-# I use this script to convert aac files to mp3 files for local music enjoyment
+# aac to mp3 file converter
 
 from pydub import AudioSegment
 import os

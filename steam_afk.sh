@@ -1,13 +1,10 @@
 #!/bin/bash
 
 # A shell script to afk steam games
-# Prereq:
-# 1. Install the idle master
-# 2. Create a file named id.txt and put all the app ids in it
-# 3. Put this script in the same folder as steam-idle.exe
-# 4. Run this script
 
 # Continuous dots are redirected to Disk C
+
+# Note: the file path is hardcoded, change it to your own path
 readonly FILE_PATH="..\..\..\..\LetterWang\Apps\idle_master\\\
 idle_master_extended_v1.7\idle_master_extended_v1.7\\"
 readonly APP_ID_FILE='id.txt'

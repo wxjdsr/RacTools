@@ -1,5 +1,4 @@
 @REM This file toggles the hypervisorlaunchtype between auto and off
-@REM I use this to switch between Docker and simulator games like Ubuntu and Kirara Fantasia
 
 @ECHO OFF
 
