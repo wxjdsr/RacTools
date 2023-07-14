@@ -2,7 +2,7 @@ import subprocess
 
 input_file = input("Please enter your ts file: ")
 
-if ".ts" not in input_file:
+if not input_file.endswith(".ts"):
     raise ValueError("[ERROR] the given filename is not a ts file")
 
 output_file = input_file.replace(".ts", ".mp4")
