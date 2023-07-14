@@ -13,3 +13,7 @@ A shell script to afk steam games with these steps:
 
 ## AAC to MP3 file converter
 I use this script to convert music from .aac to .mp3 for local music enjoyment.
+Update: The old version is not handy so I use chatGPT to give me new thoughts about it
+
+## TS to MP4 file converter
+This is an utility for getting ts files like movies into a handy format like MP4.
