@@ -1,6 +1,6 @@
 import subprocess
 
-input_file = input("Please enter your ts file: ")
+input_file = input("Please enter your ts file path: ")
 
 if not input_file.endswith(".ts"):
     raise ValueError("[ERROR] the given filename is not a ts file")
@@ -14,5 +14,6 @@ except subprocess.CalledProcessError as e:
     print(f'[ERROR] There is error when trying to run the commmand. See stdout for details')
     print(e.stdout)
 else:
-    subprocess.run(cmd)
+    # FIXME: this statement may rerun the command, which causes unexpected behavior
+    # subprocess.run(cmd)
     print(f'[INFO] Success: output file: {output_file}')
